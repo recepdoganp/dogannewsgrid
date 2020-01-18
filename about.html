@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Staatliches&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media='screen and (max-width: 768px) 'href="css/mobile.css">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <title>NewsGrid | About</title>
+</head>
+<body>
+  <nav class="" id="main-nav">
+    <div class="container">
+      <img src="img/logo.png" alt="NewsGrid" class='logo'>
+      <div class="social">
+        <a href="http://www.facebook.com"><i class="fab fa-facebook fa-2x" target='_blank'></i></a>
+        <a href="http://www.twitter.com"><i class="fab fa-twitter fa-2x" target='_blank'></i></a>
+        <a href="http://www.instagram.com"><i class="fab fa-instagram fa-2x" target='_blank'></i></a>
+        <a href="http://www.youtube.com"><i class="fab fa-youtube fa-2x" target='_blank'></i></a>
+      </div>
+      <ul>
+        <li><a href="index.html" >Home</a></li>
+        <li><a class="current" href="about.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <!-- Section -->
+  <section id='about'>
+    <div class="container">
+      <div class="page-container">
+        <article class='card'>
+          <h1 class="l-heading">
+            About Our Orginization
+          </h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, maxime dolores inventore, odio dolore laboriosam aperiam molestiae vitae cum, nihil nisi error. Reiciendis labore dignissimos natus asperiores nisi officia error fugit quae? Numquam commodi veniam dolorem dicta. Excepturi pariatur sequi eos laborum, necessitatibus sit laboriosam. Recusandae doloribus ipsam quae rerum!</p>
+          <br>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ullam unde rem harum, placeat eum tempora sit laborum perspiciatis alias doloribus dolorum aliquid enim delectus ex incidunt porro, possimus doloremque? Neque deleniti omnis cupiditate dolore aliquam dolores, aut debitis facilis veritatis id, in beatae, animi corrupti laboriosam aliquid! Hic reprehenderit vero id ab nihil earum nobis in inventore sint omnis quisquam harum quas ipsum autem placeat quis doloremque, repudiandae consectetur dolores saepe natus? Rem nisi praesentium doloremque ipsum recusandae sint, nobis laboriosam nemo dolores nihil labore cum, architecto, eveniet qui quidem nesciunt blanditiis facere hic dolore autem. Quos, excepturi fugit qui iure ipsum maiores perferendis cupiditate numquam animi ea, blanditiis corrupti dolore, libero soluta magni optio? Pariatur amet labore ratione nihil. Animi a quod alias iusto sit, officiis dolores suscipit voluptate labore aliquam nobis ullam! Accusamus excepturi, assumenda, quia eos sunt, et a quis nisi praesentium ex voluptatem in quod.</p>
+        </article>
+        <aside class='card bg-primary'>
+          <h2>Join Our Club</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, neque?</p>
+          <a href="#" class="btn btn-dark btn-block">Join Now</a>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id='main-footer' class='py-2'>
+    <div class="container footer-container">
+      <div>
+        <img src="./img/logo_light.png" alt="NewsGrid">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore reiciendis corporis fugiat tenetur eaque cum saepe. Quos voluptate vel temporibus?</p>
+      </div>
+      <div>
+        <h3>Email Newsletter</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit nam debitis aliquid reiciendis eos exercitationem similique sapiente dignissimos esse doloremque.</p>
+        <form>
+          <input type="email" placeholder="Enter Email...">
+          <input type="submit" value="Subscribe" class='btn btn-primary'>
+        </form>
+      </div>
+      <div>
+        <h3>Site Links</h3>
+        <ul class="list">
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Join Our Club</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, animi.</p>
+        <a href="#" class="btn btn-secondary">Join Now</a>
+      </div>
+      <div>
+        <p>Copyright &copy;, All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+  <script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("main-nav").style.top = "0";
+      } else {
+        document.getElementById("main-nav").style.top = "-120px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+    </script>
+</body>
+</html>
